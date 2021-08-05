@@ -1,0 +1,19 @@
+// Check Examples
+
+//Node.js 10.14.0
+
+//Plain Javascript and Node.js is supported
+
+// html/css is not supported here 
+
+function spinalCase(str) {   
+
+   return str.split(/\s|_|(?=[A-Z])/).join("-").toLowerCase(); 
+
+}
+
+console.log(spinalCase("This Is Spinal Tap"));
+
+console.log(spinalCase("EVERYTHING IS GOING WELL"));
+
+console.log(spinalCase("MyName Is Timothy Okom iLove Js"));
